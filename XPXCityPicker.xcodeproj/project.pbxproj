@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3DB7871E7153FD0001E91A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3DB7861E7153FD0001E91A /* main.m */; };
+		BE3DB78A1E7153FD0001E91A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3DB7891E7153FD0001E91A /* AppDelegate.m */; };
+		BE3DB78D1E7153FD0001E91A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3DB78C1E7153FD0001E91A /* ViewController.m */; };
+		BE3DB7901E7153FD0001E91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB78E1E7153FD0001E91A /* Main.storyboard */; };
+		BE3DB7921E7153FD0001E91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7911E7153FD0001E91A /* Assets.xcassets */; };
+		BE3DB7951E7153FD0001E91A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7931E7153FD0001E91A /* LaunchScreen.storyboard */; };
+		BE3DB79F1E7155F40001E91A /* XPXCityPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3DB79E1E7155F40001E91A /* XPXCityPickerVC.m */; };
+		BE3DB7A11E7156090001E91A /* citytest.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7A01E7156090001E91A /* citytest.plist */; };
+		BE3DB7A91E71562B0001E91A /* ios-ref.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7A31E71562B0001E91A /* ios-ref.png */; };
+		BE3DB7AA1E71562B0001E91A /* ios-ref@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7A41E71562B0001E91A /* ios-ref@2x.png */; };
+		BE3DB7AB1E71562B0001E91A /* ios-ref@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7A51E71562B0001E91A /* ios-ref@3x.png */; };
+		BE3DB7AC1E71562B0001E91A /* ios-loc.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7A61E71562B0001E91A /* ios-loc.png */; };
+		BE3DB7AD1E71562B0001E91A /* ios-loc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7A71E71562B0001E91A /* ios-loc@2x.png */; };
+		BE3DB7AE1E71562B0001E91A /* ios-loc@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE3DB7A81E71562B0001E91A /* ios-loc@3x.png */; };
+		BE3DB7B31E7157290001E91A /* HotCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3DB7B01E7157290001E91A /* HotCityTableViewCell.m */; };
+		BE3DB7B41E7157290001E91A /* LocationCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3DB7B21E7157290001E91A /* LocationCityTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE3DB7821E7153FD0001E91A /* XPXCityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPXCityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3DB7861E7153FD0001E91A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE3DB7881E7153FD0001E91A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE3DB7891E7153FD0001E91A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE3DB78B1E7153FD0001E91A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE3DB78C1E7153FD0001E91A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE3DB78F1E7153FD0001E91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE3DB7911E7153FD0001E91A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3DB7941E7153FD0001E91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE3DB7961E7153FD0001E91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3DB79D1E7155F40001E91A /* XPXCityPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPXCityPickerVC.h; sourceTree = "<group>"; };
+		BE3DB79E1E7155F40001E91A /* XPXCityPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPXCityPickerVC.m; sourceTree = "<group>"; };
+		BE3DB7A01E7156090001E91A /* citytest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citytest.plist; sourceTree = "<group>"; };
+		BE3DB7A31E71562B0001E91A /* ios-ref.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-ref.png"; sourceTree = "<group>"; };
+		BE3DB7A41E71562B0001E91A /* ios-ref@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-ref@2x.png"; sourceTree = "<group>"; };
+		BE3DB7A51E71562B0001E91A /* ios-ref@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-ref@3x.png"; sourceTree = "<group>"; };
+		BE3DB7A61E71562B0001E91A /* ios-loc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-loc.png"; sourceTree = "<group>"; };
+		BE3DB7A71E71562B0001E91A /* ios-loc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-loc@2x.png"; sourceTree = "<group>"; };
+		BE3DB7A81E71562B0001E91A /* ios-loc@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios-loc@3x.png"; sourceTree = "<group>"; };
+		BE3DB7AF1E7157290001E91A /* HotCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotCityTableViewCell.h; sourceTree = "<group>"; };
+		BE3DB7B01E7157290001E91A /* HotCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotCityTableViewCell.m; sourceTree = "<group>"; };
+		BE3DB7B11E7157290001E91A /* LocationCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCityTableViewCell.h; sourceTree = "<group>"; };
+		BE3DB7B21E7157290001E91A /* LocationCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCityTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3DB77F1E7153FD0001E91A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE3DB7791E7153FD0001E91A = {
+			isa = PBXGroup;
+			children = (
+				BE3DB7841E7153FD0001E91A /* XPXCityPicker */,
+				BE3DB7831E7153FD0001E91A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3DB7831E7153FD0001E91A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DB7821E7153FD0001E91A /* XPXCityPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3DB7841E7153FD0001E91A /* XPXCityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DB79C1E7155C70001E91A /* XPXCityPicker */,
+				BE3DB7881E7153FD0001E91A /* AppDelegate.h */,
+				BE3DB7891E7153FD0001E91A /* AppDelegate.m */,
+				BE3DB78B1E7153FD0001E91A /* ViewController.h */,
+				BE3DB78C1E7153FD0001E91A /* ViewController.m */,
+				BE3DB78E1E7153FD0001E91A /* Main.storyboard */,
+				BE3DB7911E7153FD0001E91A /* Assets.xcassets */,
+				BE3DB7931E7153FD0001E91A /* LaunchScreen.storyboard */,
+				BE3DB7961E7153FD0001E91A /* Info.plist */,
+				BE3DB7851E7153FD0001E91A /* Supporting Files */,
+			);
+			path = XPXCityPicker;
+			sourceTree = "<group>";
+		};
+		BE3DB7851E7153FD0001E91A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DB7861E7153FD0001E91A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE3DB79C1E7155C70001E91A /* XPXCityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DB7A21E7156220001E91A /* image */,
+				BE3DB7A01E7156090001E91A /* citytest.plist */,
+				BE3DB79D1E7155F40001E91A /* XPXCityPickerVC.h */,
+				BE3DB79E1E7155F40001E91A /* XPXCityPickerVC.m */,
+				BE3DB7AF1E7157290001E91A /* HotCityTableViewCell.h */,
+				BE3DB7B01E7157290001E91A /* HotCityTableViewCell.m */,
+				BE3DB7B11E7157290001E91A /* LocationCityTableViewCell.h */,
+				BE3DB7B21E7157290001E91A /* LocationCityTableViewCell.m */,
+			);
+			path = XPXCityPicker;
+			sourceTree = "<group>";
+		};
+		BE3DB7A21E7156220001E91A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				BE3DB7A31E71562B0001E91A /* ios-ref.png */,
+				BE3DB7A41E71562B0001E91A /* ios-ref@2x.png */,
+				BE3DB7A51E71562B0001E91A /* ios-ref@3x.png */,
+				BE3DB7A61E71562B0001E91A /* ios-loc.png */,
+				BE3DB7A71E71562B0001E91A /* ios-loc@2x.png */,
+				BE3DB7A81E71562B0001E91A /* ios-loc@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3DB7811E7153FD0001E91A /* XPXCityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3DB7991E7153FD0001E91A /* Build configuration list for PBXNativeTarget "XPXCityPicker" */;
+			buildPhases = (
+				BE3DB77E1E7153FD0001E91A /* Sources */,
+				BE3DB77F1E7153FD0001E91A /* Frameworks */,
+				BE3DB7801E7153FD0001E91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPXCityPicker;
+			productName = XPXCityPicker;
+			productReference = BE3DB7821E7153FD0001E91A /* XPXCityPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3DB77A1E7153FD0001E91A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Team;
+				TargetAttributes = {
+					BE3DB7811E7153FD0001E91A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L37SXG465L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE3DB77D1E7153FD0001E91A /* Build configuration list for PBXProject "XPXCityPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3DB7791E7153FD0001E91A;
+			productRefGroup = BE3DB7831E7153FD0001E91A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3DB7811E7153FD0001E91A /* XPXCityPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3DB7801E7153FD0001E91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3DB7AA1E71562B0001E91A /* ios-ref@2x.png in Resources */,
+				BE3DB7951E7153FD0001E91A /* LaunchScreen.storyboard in Resources */,
+				BE3DB7A11E7156090001E91A /* citytest.plist in Resources */,
+				BE3DB7921E7153FD0001E91A /* Assets.xcassets in Resources */,
+				BE3DB7AC1E71562B0001E91A /* ios-loc.png in Resources */,
+				BE3DB7AD1E71562B0001E91A /* ios-loc@2x.png in Resources */,
+				BE3DB7AB1E71562B0001E91A /* ios-ref@3x.png in Resources */,
+				BE3DB7A91E71562B0001E91A /* ios-ref.png in Resources */,
+				BE3DB7AE1E71562B0001E91A /* ios-loc@3x.png in Resources */,
+				BE3DB7901E7153FD0001E91A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3DB77E1E7153FD0001E91A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3DB79F1E7155F40001E91A /* XPXCityPickerVC.m in Sources */,
+				BE3DB78D1E7153FD0001E91A /* ViewController.m in Sources */,
+				BE3DB78A1E7153FD0001E91A /* AppDelegate.m in Sources */,
+				BE3DB7871E7153FD0001E91A /* main.m in Sources */,
+				BE3DB7B31E7157290001E91A /* HotCityTableViewCell.m in Sources */,
+				BE3DB7B41E7157290001E91A /* LocationCityTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE3DB78E1E7153FD0001E91A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3DB78F1E7153FD0001E91A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE3DB7931E7153FD0001E91A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE3DB7941E7153FD0001E91A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE3DB7971E7153FD0001E91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE3DB7981E7153FD0001E91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3DB79A1E7153FD0001E91A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L37SXG465L;
+				INFOPLIST_FILE = XPXCityPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leo.XPXCityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE3DB79B1E7153FD0001E91A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L37SXG465L;
+				INFOPLIST_FILE = XPXCityPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leo.XPXCityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3DB77D1E7153FD0001E91A /* Build configuration list for PBXProject "XPXCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3DB7971E7153FD0001E91A /* Debug */,
+				BE3DB7981E7153FD0001E91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3DB7991E7153FD0001E91A /* Build configuration list for PBXNativeTarget "XPXCityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3DB79A1E7153FD0001E91A /* Debug */,
+				BE3DB79B1E7153FD0001E91A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3DB77A1E7153FD0001E91A /* Project object */;
+}
