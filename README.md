@@ -18,6 +18,6 @@
 <br>
 ---
 ### 2、图片示例：
-![1.png](https://github.com/leoxpx/XPXCityPicker/blob/master/1.png)
-![2.png](https://github.com/leoxpx/XPXCityPicker/blob/master/2.png)
-![3.png](https://github.com/leoxpx/XPXCityPicker/blob/master/3.png)
+![1.png](https://github.com/leoxpx/XPXCityPicker/blob/master/1.png)<br />
+![2.png](https://github.com/leoxpx/XPXCityPicker/blob/master/2.png)<br />
+![3.png](https://github.com/leoxpx/XPXCityPicker/blob/master/3.png)<br />
